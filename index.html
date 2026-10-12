@@ -576,7 +576,7 @@ function renderStep(){
     </div>
     <section class="reg-sec cat-Occupational"><div class="reg-head"><span class="reg-badge"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M12 3L2 8l10 5 10-5-10-5z"/><path d="M6 10.5V15c0 1.7 2.7 3 6 3s6-1.3 6-3v-4.5"/></svg></span><div><div class="reg-step">Part 1 of 4</div><h3 class="font-display font-bold text-[#0f2744] text-[15px] leading-tight">Course &amp; identity</h3><p class="text-[11px] text-slate-500 mt-0.5">Choose what you want to study and verify who you are.</p></div></div><div>
       <div class="flex-1 min-w-[16rem] grid sm:grid-cols-2 gap-4">
-        <div class="sm:col-span-2">${fieldRow('Course Category <span style="color:#dc2626">*</span>','<select id="f_programme"><option value="">Select</option>${progOptions}</select>')}</div>
+        <div class="sm:col-span-2">${fieldRow('Course Category <span style="color:#dc2626">*</span>','<select id="f_programme"><option value="">Select</option>'+progOptions+'</select>')}</div>
         ${fieldRow('Identification Type <span style="color:#dc2626">*</span>','<select id="f_idType"><option value="">Select</option><option>ID Number</option><option>Passport</option></select>')}
         <div>
           <div class="field-wrap"><label class="field-label">ID Number <span style="color:#dc2626">*</span></label>
